@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".RegistrationDataEntry">
+
+<EditText
+    android:id="@+id/etYear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Year"/>
+
+<EditText
+    android:id="@+id/etMake"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Make" />
+
+<EditText
+    android:id="@+id/etModel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Model"/>
+
+<EditText
+    android:id="@+id/etColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Color"/>
+
+<EditText
+    android:id="@+id/etEngineSize"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Engine Size"/>
+
+<EditText
+    android:id="@+id/etTransmission"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Transmission Size"/>
+
+<Button
+    android:id="@+id/btnSendToMainFromCarReg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter"
+    android:onClick="onClick"/>
+
+</LinearLayout>
